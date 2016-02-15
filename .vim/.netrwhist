@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/stapsy/.vim/colors/shblah'
+let g:netrw_dirhist_2='/sys/class/backlight/intel_backlight'
+let g:netrw_dirhist_3='/home/stapsy/.config'
+let g:netrw_dirhist_4='/home/stapsy/pictures'

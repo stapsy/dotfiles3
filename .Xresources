@@ -1,0 +1,116 @@
+xterm*termName: xterm-256color
+xterm*utf8: 1 
+xterm*locale: true
+
+!fonts
+
+
+xterm*metaSendsEscape: true 
+!xterm*font:-*-tamsyn-medium-*-*-*-20-*-*-*-*-*-*-*
+xterm*font:-misc-tamsyn-medium-r-normal--16-116-100-100-c-80-iso8859-1
+
+urxvt*scrollBar: false
+urxvt*font:-zevv-peep-medium-r-normal--16-*-*-*-c-*-iso8859-15
+!urxvt*font:-*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
+!urxvt*font:-*-gohufont-medium-*-*-*-14-*-*-*-*-*-iso8859-*
+!urxvt*font:-misc-ohsnapu-medium-r-normal--14-101-100-100-c-70-iso10646-1
+
+
+!gruvbox
+! hard contrast: *background: #1d2021
+! soft contrast: *background: #32302f
+! standard background: #282828
+*background: #141414
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+!*color1:  #cc241d
+*color1:  #b7402f
+!*color1:	#a62b2b
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
+! LighterGrey for background
+*color17: #404040
+*color18: #333333
+*color19: #4d4d4d
+*cursorColor: #98971a
+
+!smear
+!*background: #20242c
+!*foreground: #b3b8c4
+!*color0:	#3e4853
+!*color8:	#525c67
+!red
+!*color1:	#b06a58
+!*color9:	#ba7e6c
+!green
+!*color2:	#95b47b
+!*color10:	#a9c88f
+!yellow
+!*color3:	#e5c078
+!*color11:	#f9d48c
+!blue
+!*color4:	#58698c
+!*color12:	#6c7da0
+!magenta
+!*color5:	#7b5e8d
+!*color13:	#8f72a1
+!cyan
+!*color6:	#82a1b2
+!*color14:	#96b5c6
+!white
+!*color7:	#cccaca
+!*color15:	#e0dede
+
+!grumple
+!*background: #141414
+!*foreground: #ebdbb2
+!black
+!*color0:  #282828
+!*color8:  #928374
+!red
+!*color1:	#a60d0d
+!*color1:	#a62b2b
+!*color1:	#c7301f
+!green		#98e77e
+!*color2:	#b8bb26
+!*color10:	#aaff66
+!yellow
+!*color3:	#e5c078
+!*color11:	#f9d48c
+!blue
+!*color4:	#58698c
+!*color12:	#6c7da0
+!magenta
+!*color5:	#7b5e8d
+!*color13:	#8f72a1
+!cyan
+!*color6:	#82a1b2
+!*color14:	#96b5c6
+!white
+!*color7:	#cccaca
+!*color15:	#e0dede
+
+
+
+
+
