@@ -1,0 +1,31 @@
+!use this template for colorschemes
+
+!*background: #141414
+!*foreground: #ebdbb2
+!*cursorColor: #98971a
+
+! Black + DarkGrey
+*color0:  #222222
+*color8:  #5c4c4c
+! DarkRed + Red
+*color1:  #784742
+*color9:  #d43f10
+! DarkGreen + Green
+*color2:  #427363
+*color10: #cef318
+! DarkYellow + Yellow
+*color3:  #665847
+*color11: #ede265
+! DarkBlue + Blue
+*color4:  #6a708b
+*color12: #6ac0fd
+! DarkMagenta + Magenta
+*color5:  #7a378b
+*color13: #ef79ae
+! DarkCyan + Cyan
+*color6:  #52707b
+*color14: #49d4dd
+! LightGrey + White
+*color7:  #b3b4b1
+*color15: #ffffff
+									

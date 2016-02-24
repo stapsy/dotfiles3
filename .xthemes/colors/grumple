@@ -1,0 +1,46 @@
+!grumple
+
+!background: #141414
+!foreground: #ebdbb2
+!black
+*color0:	 #282828
+*color8:	 #928374
+!red
+!*color1:	 #a7300c rs gruvbox
+*color1:	 #8e3b38
+*color9:	 #d43f10
+!green      
+!*color2:	 #b8bb26 gruvbox
+!*color2:	 #95b47b smear
+!*color2:	 #91cb62
+*color2:	 #b4bc68 
+*color10:	 #cef318
+!yellow
+*color3:	 #e5c078
+*color11:	 #f9d48c
+
+!blue
+*color6:	 #58698c
+*color14:	 #6c7da0 
+!*color14:	 #89bdb6 codeacademy
+
+!magenta
+*color5:	 #7b5e8d
+!*color13:	 #8f72a1 smear 
+*color13:	 #847793 
+!*color13:	 #b46496 rs
+
+!cyan
+*color4:	 #82a1b2
+*color12:    #96b5c6
+
+!white
+*color7:	 #a09984
+*color15:	 #ebdbb2
+
+!#623440
+!#8e3b38
+
+!codeacademy operator blue 89bdb6
+!codeacademy string green #b4bc68 
+!codeacademy function purple 847793
