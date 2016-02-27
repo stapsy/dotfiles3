@@ -35,7 +35,7 @@ set wrap
 set number
 set numberwidth=3
 set t_Co=256
-set term=xterm-256color
+"set term=xterm-256color
 set encoding=utf-8
 "set t_ut=
 ""set go=
@@ -64,10 +64,10 @@ set mouse=
 "colorscheme settings
 "let base16colorspace=256
 "let g:gruvbox_termcolors=16
-let g:gruvbox_invert_selection=0
-let g:gruvbox_contrast_dark='soft'
-set background=dark
-colorscheme grumple
+"let g:gruvbox_invert_selection=0
+"let g:gruvbox_contrast_dark='soft'
+"set background=dark
+colorscheme grumble
 "let g:gruvbox_contrast_dark= hard
 
 "status bar settings

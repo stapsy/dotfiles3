@@ -1,7 +1,11 @@
 !grumple
 
-*background: #141414
-*foreground: #ebdbb2
+!purple
+*background:  #1f141f
+!*background: #191919
+*foreground:  #ebdbb2
+!*foreground: #AFAF87 venam2 foreground
+
 !black
 *color0:	 #282828
 *color8:	 #928374
@@ -16,21 +20,23 @@
 
 !yellow
 *color3:	 #bf7a29
-*color11:	 #fbab50
-
-!blue dark blue / cyan
-*color14:	 #79a69d
-*color6:	 #6c7da0 
-
-!magenta
-*color5:	 #7b5e8d
-*color13:	 #9c818e 
+!*color11:	 #fbab50
+*color11:	 #ffa680
 
 !blue
 !*color4:	 #82a1b2 standard
 *color4:	 #607a86
 *color12:    #96b5c6
 
+!magenta
+*color5:	 #7b5e8d
+*color13:	 #9c818e 
+
+!blue dark blue / cyan
+*color6:	 #6ea094 
+!*color14:	 #a3dcce standar
+*color14:	 #95d0c1 
+!
 !white
 *color7:	 #a09984
 *color15:	 #ebdbb2

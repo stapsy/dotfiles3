@@ -16,13 +16,18 @@ urxvt*font:-zevv-peep-medium-r-normal--16-*-*-*-c-*-iso8859-15
 !urxvt*font:-misc-ohsnapu-medium-r-normal--14-101-100-100-c-70-iso10646-1
 
 !cursor
-*cursorColor: #98971a
+!*cursorColor: #98971a
+!grey
+!*cursorColor:  #a89984
+!purple
+*cursorColor:  #9c818e
 
-#include "/home/stapsy/.xthemes/colors/grumple"
+
+#include "/home/stapsy/.xthemes/colors/grumple2"
 
 !gruvbox
-*background: #141414
-*foreground: #e0dede
+!*background: #141414
+!*foreground: #ebdbb2
 ! Black + DarkGrey
 !*color0:  #282828
 !*color8:  #928374

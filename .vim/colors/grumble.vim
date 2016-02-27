@@ -4,12 +4,15 @@
 " =====================================
 "" A 16 colors scheme that use your terminal colors
 
-hi clear
-if exists("syntax_on")
-	syntax reset 
+"hi clear
+set background=dark
+if version > 580
+	highlight clear
+	if exists("syntax_on")
+		syntax reset 
+	endif
 endif
 
-set background=dark
 let colors_name="grumble"
 
 " Actual colours and styles.
@@ -23,7 +26,7 @@ hi! link LineNr          NonText
 hi Error        term=NONE cterm=NONE ctermfg=0    ctermbg=1
 hi ErrorMsg     term=NONE cterm=bold ctermfg=1    ctermbg=NONE
 hi WarningMsg   term=NONE cterm=bold ctermfg=1    ctermbg=NONE
-hi Special      term=NONE cterm=BOLD ctermfg=2    ctermbg=NONE
+hi Special      term=NONE cterm=NONE ctermfg=166    ctermbg=NONE
 
 " generic statement
 hi Statement    term=NONE cterm=NONE ctermfg=1   ctermbg=NONE
@@ -33,7 +36,7 @@ hi Label    term=NONE cterm=NONE ctermfg=1   ctermbg=NONE
 hi Exception    term=NONE cterm=NONE ctermfg=1   ctermbg=NONE
 
 " operators
-hi Operator		term=NONE cterm=NONE ctermfg=13    ctermbg=NONE
+hi Operator		term=NONE cterm=BOLD ctermfg=13    ctermbg=NONE
 hi Keyword		term=NONE cterm=NONE ctermfg=1    ctermbg=NONE
 			
 
@@ -43,7 +46,7 @@ hi Function     term=NONE cterm=BOLD ctermfg=4   ctermbg=NONE
 hi Identifier   term=NONE cterm=BOLD ctermfg=248   ctermbg=NONE
 
 " Generic preprocessor
-hi PreProc      term=NONE cterm=NONE ctermfg=14    ctermbg=NONE
+hi PreProc      term=NONE cterm=NONE ctermfg=6    ctermbg=NONE
 " Preprocessor #include
 hi! link Include PreProc		
 " Preprocessor #define
@@ -54,7 +57,7 @@ hi! link Macro PreProc
 hi! link PreCondit PreProc
 
 " Generic constant
-hi Constant     term=NONE cterm=NONE ctermfg=130    ctermbg=NONE
+hi Constant     term=NONE cterm=NONE ctermfg=11   ctermbg=NONE
 " Character constant: 'c', '/n'
 hi! link Character Constant
 " Boolean constant: TRUE, false
@@ -69,11 +72,8 @@ hi String       term=NONE cterm=NONE ctermfg=2    ctermbg=NONE
 					
 " Generic Type
 hi Type         term=NONE cterm=NONE ctermfg=3    ctermbg=NONE
-" static, register, volatile, etc
 hi! link StorageClass Type
-" struct, union, enum, etc.
 hi! link Structure Type
-" typedef
 hi! link Typedef Type
 				
 "extra/test
@@ -81,7 +81,8 @@ hi! link Typedef Type
 hi MatchParen	term=NONE cterm=NONE ctermfg=14    ctermbg=NONE
 
 "Python
-hi! link pythonBuiltin Special
+hi pythonBuiltin term=NONE cterm=NONE ctermfg=9    ctermbg=NONE
+
 "hi! link pythonBuiltinObj Normal
 "hi! link pythonBuiltinFunc Comment
 
