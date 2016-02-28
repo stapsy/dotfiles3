@@ -1,0 +1,16 @@
+#new tab
+t = new-tab
+d = close-tab
+
+H = back
+L = forward
+K = left-tab
+J = right-tab
+
+k = line-up
+j= line-down
+h = left
+l = right
+
+g = top
+G = bottom
