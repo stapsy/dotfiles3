@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/stapsy/usr/userdots/z1lt0id/gentoo_dots/sxhkd'
-let g:netrw_dirhist_2='/home/stapsy/usr/userdots/z1lt0id'
-let g:netrw_dirhist_3='/home/stapsy/builds/surf/src/surf-0.7'
