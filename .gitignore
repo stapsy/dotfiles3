@@ -6,6 +6,7 @@
 .config/gtk3.0/
 .config/dconf/
 .config/mimeapps.list
+.config/ranger/
 .dmenu_cache
 .fltk/
 .local/
