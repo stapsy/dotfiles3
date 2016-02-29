@@ -1,0 +1,14 @@
+
+!laptop keyboard mod
+
+clear lock
+clear control
+
+
+keycode 66 = Control_L 
+add control = Control_L Control_R
+
+keycode 49 = Escape asciitilde Escape 
+!keycode 22 = BackSpace grave BackSpace
+keycode 9 = grave asciitilde grave
+
