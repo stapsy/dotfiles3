@@ -23,3 +23,6 @@ builds/
 pictures/
 tasks/
 usr/
+.xthemes/fonts/
+.vim/bundle/
+.lesshst
