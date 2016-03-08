@@ -40,7 +40,7 @@ network() {
 	then
 		echo "-"
 	else
-		echo "+" 
+		echo "connected" 
 	fi
 }
 
