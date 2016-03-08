@@ -1,7 +1,6 @@
-!use this template for colorschemes
 
-!*background: #141414
-!*foreground: #ebdbb2
+*background: #141414
+*foreground: #ebdbb2
 !*cursorColor: #98971a
 
 ! Black + DarkGrey

@@ -1,8 +1,4 @@
-" ┏━┓╻ ╻┏┓ ╻  ┏━┓╻ ╻   ╻ ╻╻┏┳┓
-" ┗━┓┣━┫┣┻┓┃  ┣━┫┣━┫   ┃┏┛┃┃┃┃
-" ┗━┛╹ ╹┗━┛┗━╸╹ ╹╹ ╹ ╹ ┗┛ ╹╹ ╹ "                           -- by z3bra
-" =====================================
-"" A 16 colors scheme that use your terminal colors
+"GRRRRUMBLE
 
 "hi clear
 set background=dark
@@ -21,7 +17,7 @@ let colors_name="grumble"
 "boring colors
 hi Normal       term=NONE cterm=NONE ctermfg=15    ctermbg=NONE
 hi Comment      term=NONE cterm=NONE ctermfg=8    ctermbg=NONE
-hi NonText      term=NONE cterm=NONE ctermfg=237    ctermbg=NONE
+hi NonText      term=NONE cterm=NONE ctermfg=0   ctermbg=NONE
 hi! link LineNr          NonText
 hi Error        term=NONE cterm=NONE ctermfg=0    ctermbg=1
 hi ErrorMsg     term=NONE cterm=bold ctermfg=1    ctermbg=NONE
@@ -46,7 +42,7 @@ hi Function     term=NONE cterm=BOLD ctermfg=4   ctermbg=NONE
 hi Identifier   term=NONE cterm=BOLD ctermfg=248   ctermbg=NONE
 
 " Generic preprocessor
-hi PreProc      term=NONE cterm=NONE ctermfg=6    ctermbg=NONE
+hi PreProc      term=NONE cterm=NONE ctermfg=14    ctermbg=NONE
 " Preprocessor #include
 hi! link Include PreProc		
 " Preprocessor #define
@@ -78,7 +74,7 @@ hi! link Typedef Type
 				
 "extra/test
 " matching parenthesis
-hi MatchParen	term=NONE cterm=NONE ctermfg=14    ctermbg=NONE
+hi MatchParen	term=NONE cterm=NONE ctermfg=10    ctermbg=NONE
 
 "Python
 hi pythonBuiltin term=NONE cterm=NONE ctermfg=9    ctermbg=NONE

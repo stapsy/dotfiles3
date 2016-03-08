@@ -35,13 +35,13 @@ memused() {
 }
 
 network() {
-name=`iwconfig wlp58s0 | grep ESSID | awk '{print $4}' | tr -d "ESID:"`
-if `[ $name == "off/any" ]`
-then
-	echo "OFF"
-else
-	echo $name
-fi
+	name=`iwconfig wlp58s0 | grep ESSID | awk '{print $4}' | tr -d "ESID:"`
+	if `[ $name == "off/any" ]`
+	then
+		echo "-"
+	else
+		echo "+" 
+	fi
 }
 
 groups() {
@@ -68,8 +68,6 @@ while :; do
 	buf="${buf}%{r}%{F$grey2} %{F-} $(clock) %{F$grey2}|"
 	buf="${buf}%{F-}$(clock2) %{F$grey2}|"
 	buf="${buf}	%{F-}NET $(network) %{F$grey2}|"
-	buf="${buf} %{F-}CPU $(cpuload)% %{F$grey2}|"
-	buf="${buf} %{F-}RAM $(memused)%  %{F$grey2} "
 	buf="${buf} %{F-}BAT $(battery) %{F$grey2} "
 	
 	echo $buf

@@ -1,13 +1,13 @@
 !grumple
 
-!purple
-*background:  #1f141f
+!purple*background:  #1f141f
+*background:  #383036
+!brown*background:	#3b352d
 !*background: #191919
 *foreground:  #ebdbb2
-!*foreground: #AFAF87 venam2 foreground
 
 !black
-*color0:	 #282828
+*color0:	 #5f4f49
 *color8:	 #928374
 
 !red
@@ -19,12 +19,11 @@
 *color10:	 #cef318
 
 !yellow
-*color3:	 #bf7a29
+*color3:	 #f7a443
 !*color11:	 #fbab50
 *color11:	 #ffa680
 
 !blue
-!*color4:	 #82a1b2 standard
 *color4:	 #607a86
 *color12:    #96b5c6
 
@@ -32,11 +31,10 @@
 *color5:	 #7b5e8d
 *color13:	 #9c818e 
 
-!blue dark blue / cyan
+!blue 
 *color6:	 #6ea094 
-!*color14:	 #a3dcce standar
 *color14:	 #95d0c1 
-!
+
 !white
 *color7:	 #a09984
 *color15:	 #ebdbb2

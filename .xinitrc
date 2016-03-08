@@ -47,10 +47,10 @@ xset fp rehash
 
 
 #update keybindings
-xmodmap ~/.xmodmap 
+xmodmap ~/.xmodmapl 
 #set the background
 #feh --bg-fill ~/pictures/hexcamo.png &
-hsetroot -full ~/pictures/firewatch1.jpg & 
+hsetroot -fill ~/pictures/cat1fade.jpg & 
 
 #get rid of stupid cross pointer
 xsetroot -cursor_name left_ptr

@@ -26,3 +26,6 @@ usr/
 .xthemes/fonts/
 .vim/bundle/
 .lesshst
+.config/gtk-2.0/
+.gimp-2.8/
+.thumbnails/

@@ -123,7 +123,12 @@ alt + shift + Return
 	xterm
 
 alt + d
-	dmenu_run
+	dmenu_run \ 
+	-fn tamsyn-12 \
+	-nb "#202020" \
+	-nf "#a89984" \
+	-sb "#9c818e" \
+	-sf "#151515"
 
 # make sxhkd reload its configuration files:
 alt + Escape
