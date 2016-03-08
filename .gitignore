@@ -23,7 +23,6 @@ builds/
 pictures/
 tasks/
 usr/
-.xthemes/fonts/
 .vim/bundle/
 .lesshst
 .config/gtk-2.0/
