@@ -1,1 +1,1 @@
-storing my dotfiles
+storing my dotfiles and assorted settings
