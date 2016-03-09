@@ -1,1 +1,1 @@
-storing my dotifles
+storing my dotfiles
