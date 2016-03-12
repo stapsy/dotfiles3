@@ -1,0 +1,38 @@
+!grumple
+
+*background:  #383036
+*foreground:  #ebdbb2
+
+!black
+*color0:	 #5f4f49
+*color8:	 #928374
+
+!red
+*color1:	 #a24444
+*color9:	 #d43f10
+
+!green      
+*color2:	 #b4bc68 
+*color10:	 #cee318
+
+!yellow
+*color3:	 #f7a443
+*color11:	 #eee685
+
+!blue
+*color4:	 #607a86
+*color12:        #96b5c6
+
+!magenta
+*color5:	 #7b5e8d
+*color13:	 #9c818e 
+
+!blue 
+*color6:	 #6ea094 
+*color14:	 #95d0c1 
+
+!white
+*color7:	 #a09984
+*color15:	 #ebdbb2
+
+
