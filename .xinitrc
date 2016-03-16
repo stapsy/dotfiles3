@@ -50,7 +50,7 @@ xset fp rehash
 xmodmap ~/.xmodmapl 
 #set the background
 #feh --bg-fill ~/pictures/hexcamo.png &
-hsetroot -fill ~/pictures/cat1fade.jpg & 
+hsetroot -full ~/pictures/trees2.jpg & 
 
 #get rid of stupid cross pointer
 xsetroot -cursor_name left_ptr

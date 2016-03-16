@@ -11,6 +11,8 @@ syntax match grumbleOperator "\v\*\="
 syntax match grumbleOperator "\v/\="
 syntax match grumbleOperator "\v\+\="
 syntax match grumbleOperator "\v-\="	
+syntax match grumbleOperator "\v\<"	
+syntax match grumbleOperator "\v\>"	
 
 hi! link grumbleOperator Operator	
 

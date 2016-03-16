@@ -40,12 +40,12 @@ set encoding=utf-8
 "set t_ut=
 ""set go=
 
-"set autoindent
+set autoindent
 set smartindent
-set expandtab
-"set smarttab
-"set tabstop=4
-set shiftwidth=4
+set smarttab
+set tabstop=4
+"set expandtab "turns tabs into spaces
+set shiftwidth=4 
 set softtabstop=4
 set linebreak
 set sbr=> "this is really cool...the symbol indicates line breaks!

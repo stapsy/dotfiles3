@@ -25,7 +25,7 @@ urxvt*font:-zevv-peep-medium-r-normal--16-*-*-*-c-*-iso8859-15
 *cursorColor:  #ecb3ff
 
 
-#include "/home/stapsy/.xthemes/colors/grumple2"
+#include "/home/stapsy/.xthemes/colors/grumble"
 
 !gruvbox
 !*background: #141414

@@ -28,3 +28,4 @@ usr/
 .config/gtk-2.0/
 .gimp-2.8/
 .thumbnails/
+*.tmp
