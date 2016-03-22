@@ -13,15 +13,15 @@ alt + shift + Escape
 alt + w 
 	bspc node -c
 
-#alt + t
-#	bspc desktop -l next
+alt + m
+	bspc desktop -l next
 
 #balance
 alt + b
 	bspc desktop -B
 
 #window type
-~alt + {s,f,g,t}
+alt + {s,f,g,t}
 	bspc node -t {floating,fullscreen,pseudo_tiled,tiled}
 
 alt + {grave,Tab}
