@@ -20,8 +20,8 @@
 
 !yellow
 *color3:	 #f7a443
-!*color11:	 #fbab50
-*color11:	 #ffa680
+*color11:	 #fbab50
+!*color11:	 #ffa680
 
 !blue
 *color4:	 #607a86
